@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nombre de la Universidad</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #0044cc;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            color: #0044cc;
+            text-decoration: none;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #0044cc;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Nombre de la Universidad</h1>
+        <p>Formando futuros líderes</p>
+    </header>
+
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#sobre-nosotros">Sobre Nosotros</a>
+        <a href="#carreras">Carreras</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <div class="container">
+        <section id="inicio">
+            <h2>Bienvenidos</h2>
+            <p>La Universidad XYZ se dedica a ofrecer educación de calidad y a formar profesionales capacitados para enfrentar los retos del futuro.</p>
+        </section>
+
+        <section id="sobre-nosotros">
+            <h2>Sobre Nosotros</h2>
+            <p>Fundada en 1990, la Universidad XYZ ha crecido hasta convertirse en una de las instituciones más reconocidas del país.</p>
+        </section>
+
+        <section id="carreras">
+            <h2>Carreras</h2>
+            <ul>
+                <li>Ingeniería en Sistemas</li>
+                <li>Psicología</li>
+                <li>Administración de Empresas</li>
+                <li>Comunicación</li>
+            </ul>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>Email: contacto@universidadxyz.edu</p>
+            <p>Teléfono: +123 456 7890</p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Universidad XYZ. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
